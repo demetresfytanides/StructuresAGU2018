@@ -1,4 +1,4 @@
-# STL Viewer
+# STL Viewer originaly developed by Kaitlyn Hova https://github.com/kaitlynhova/Three.js-STL-Viewer
 Loads an external .stl 3D model from AWS S3 storage, so you don't have to host it on your app.
 
 [view it live here](https://demetresfytanides.github.io/StructuresAGU2018/)
