@@ -36,7 +36,7 @@ function init() {
   // Binary files
 
   var material = new THREE.MeshPhongMaterial( { color: 0x0e2045, specular: 0x111111, shininess: 200 } );
-  loader.load( 'https://s3.amazonaws.com/limbforgestls/EbeArm/Ebe_forearm_L/forearm_L_C4-200_L1-230.stl', function ( geometry ) {
+  loader.load( 'https://github.com/demetresfytanides/StructuresAGU2018/blob/master/models/a.stl', function ( geometry ) {
     var mesh = new THREE.Mesh( geometry, material );
 
     mesh.position.set( 0, 0, 0 );
